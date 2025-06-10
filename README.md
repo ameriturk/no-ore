@@ -1,2 +1,2 @@
 # no-ore
-just
+since the beginning of time that any of us can remember (around 2022) people have all been saying one thing: mining is useless!!! with this information i did the only logical thing: i completely removed it. this has multiple benifits, it increases preformance 20 trillion fold as well as making sure the purely decorative structures of caves, mineshafts, amethyst geodes, and everything else holy and sacred to us minecrafters do not get defaced and belittled by the greedy miners on the server that deface for nothing more than pitiful amounts of ore. all in all i say this mod is a 10/10 and one of the best things i have ever seen you should download it and use it on your worlds.
