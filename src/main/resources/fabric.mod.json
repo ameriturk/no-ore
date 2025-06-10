@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "no_ore",
+	"version": "1.0",
+	"name": "no ore",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"ameriturk"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/no_ore/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"claire.no_ore.NoOre"
+		],
+		"client": [
+			"claire.no_ore.NoOreClient"
+		],
+		"fabric-datagen": [
+			"claire.no_ore.NoOreDataGenerator"
+		]
+	},
+	"mixins": [
+		"no_ore.mixins.json",
+		{
+			"config": "no_ore.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
